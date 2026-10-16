@@ -1,6 +1,6 @@
 # Loosely Coupled INS/GNSS Integration with a Kalman Filter
 
-A **MATLAB** simulation of a navigation system that fuses an **INS** (inertial navigation system) and a **GNSS** receiver using an error-state **Kalman filter** in a *loosely coupled* architecture.
+A **MATLAB** simulation of a navigation system that fuses an **INS** (inertial navigation system) and a **GNSS** receiver using an error-state **Kalman filter** in a *loosely coupled* architecture. Developed as part of the **SANCTA** course within the Master's Degree in Aeronautical Engineering at the Universitat Politècnica de València (UPV).
 
 Neither sensor is good enough on its own:
 - The **INS** gives high-rate, low-noise data, but integrating the accelerometer bias makes **its drift grow without bound**.
